@@ -189,12 +189,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 362110377}
-        m_MethodName: Click
-        m_Mode: 2
+      - m_Target: {fileID: 362110378}
+        m_MethodName: Click2
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 95280085}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -396,12 +396,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 362110377}
-        m_MethodName: Click
-        m_Mode: 2
+      - m_Target: {fileID: 362110378}
+        m_MethodName: Click1
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 384839299}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -518,12 +518,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 362110377}
-        m_MethodName: Click
-        m_Mode: 2
+      - m_Target: {fileID: 362110378}
+        m_MethodName: Click3
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 2037159381}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -576,6 +576,7 @@ GameObject:
   - component: {fileID: 362110374}
   - component: {fileID: 362110373}
   - component: {fileID: 362110377}
+  - component: {fileID: 362110378}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -652,9 +653,20 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 362110372}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7559873816c5dc64980d46cd930b47ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &362110378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 362110372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 505ff1edf9b00684db1301729f11690d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &384839299
